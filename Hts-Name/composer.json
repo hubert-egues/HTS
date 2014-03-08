@@ -1,0 +1,13 @@
+{
+    "require": {
+        "php" : ">= 5.3.3",
+        "fabpot/goutte": "1.0.x-dev",
+        "symfony/console" : "2.1.x-dev",
+        "symfony/serializer": "2.1.x-dev"
+    },
+    "autoload": {
+        "psr-0" : {
+            "HTS":"src"
+        }
+    }
+}

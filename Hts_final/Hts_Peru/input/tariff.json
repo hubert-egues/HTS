@@ -1,0 +1,1056 @@
+[
+  {
+    "tariff_all": [
+      {
+        "currency": "%", 
+        "percentage": 16.0, 
+        "description": "General Sales Tax", 
+        "targetValue": "CIF"
+      }, 
+      {
+        "currency": "%", 
+        "percentage": " 2", 
+        "description": "Municipal Promotion Tax", 
+        "targetValue": "CIF"
+      }, 
+      {
+        "currency": "%", 
+        "percentage": " 1.25", 
+        "description": "Insurance", 
+        "targetValue": "CIF"
+      }, 
+      {
+        "currency": "%", 
+        "percentage": "AT3583766603", 
+        "description": "Ad / Valorem", 
+        "targetValue": "CIF"
+      }
+    ], 
+    "hs": "382490", 
+    "code": "3824909999", 
+    "name": "     Other"
+  }, 
+  {
+    "tariff_all": [
+      {
+        "currency": "%", 
+        "percentage": 16.0, 
+        "description": "General Sales Tax", 
+        "targetValue": "CIF"
+      }, 
+      {
+        "currency": "%", 
+        "percentage": " 2", 
+        "description": "Municipal Promotion Tax", 
+        "targetValue": "CIF"
+      }, 
+      {
+        "currency": "%", 
+        "percentage": " 1.25", 
+        "description": "Insurance", 
+        "targetValue": "CIF"
+      }, 
+      {
+        "currency": "%", 
+        "percentage": "AT3583766603", 
+        "description": "Ad / Valorem", 
+        "targetValue": "CIF"
+      }
+    ], 
+    "hs": "382490", 
+    "code": "3824909991", 
+    "name": "     Fusel oils; Dippel oils"
+  }, 
+  {
+    "tariff_all": [
+      {
+        "currency": "%", 
+        "percentage": 16.0, 
+        "description": "General Sales Tax", 
+        "targetValue": "CIF"
+      }, 
+      {
+        "currency": "%", 
+        "percentage": " 2", 
+        "description": "Municipal Promotion Tax", 
+        "targetValue": "CIF"
+      }, 
+      {
+        "currency": "%", 
+        "percentage": " 1.25", 
+        "description": "Insurance", 
+        "targetValue": "CIF"
+      }, 
+      {
+        "currency": "%", 
+        "percentage": "AT2210486221", 
+        "description": "Ad / Valorem", 
+        "targetValue": "CIF"
+      }
+    ], 
+    "hs": "382490", 
+    "code": "3824909979", 
+    "name": "     Other"
+  }, 
+  {
+    "tariff_all": [
+      {
+        "currency": "%", 
+        "percentage": 16.0, 
+        "description": "General Sales Tax", 
+        "targetValue": "CIF"
+      }, 
+      {
+        "currency": "%", 
+        "percentage": " 2", 
+        "description": "Municipal Promotion Tax", 
+        "targetValue": "CIF"
+      }, 
+      {
+        "currency": "%", 
+        "percentage": " 1.25", 
+        "description": "Insurance", 
+        "targetValue": "CIF"
+      }, 
+      {
+        "currency": "%", 
+        "percentage": "AT2210486221", 
+        "description": "Ad / Valorem", 
+        "targetValue": "CIF"
+      }
+    ], 
+    "hs": "382490", 
+    "code": "3824909971", 
+    "name": "     Containing acyclic hydrocarbons perhalogenated only with fluorine and chlorine"
+  }, 
+  {
+    "tariff_all": [
+      {
+        "currency": "%", 
+        "percentage": 16.0, 
+        "description": "General Sales Tax", 
+        "targetValue": "CIF"
+      }, 
+      {
+        "currency": "%", 
+        "percentage": " 2", 
+        "description": "Municipal Promotion Tax", 
+        "targetValue": "CIF"
+      }, 
+      {
+        "currency": "%", 
+        "percentage": " 1.25", 
+        "description": "Insurance", 
+        "targetValue": "CIF"
+      }, 
+      {
+        "currency": "%", 
+        "percentage": "AT3583766603", 
+        "description": "Ad / Valorem", 
+        "targetValue": "CIF"
+      }
+    ], 
+    "hs": "382490", 
+    "code": "3824909960", 
+    "name": "    Other mixtures consisting predominantly of chemical products containing a phosphor atom to which a methyl, ethyl, npropyl or isopropyl group is bonded, without other carbon atom"
+  }, 
+  {
+    "tariff_all": [
+      {
+        "currency": "%", 
+        "percentage": 16.0, 
+        "description": "General Sales Tax", 
+        "targetValue": "CIF"
+      }, 
+      {
+        "currency": "%", 
+        "percentage": " 2", 
+        "description": "Municipal Promotion Tax", 
+        "targetValue": "CIF"
+      }, 
+      {
+        "currency": "%", 
+        "percentage": " 1.25", 
+        "description": "Insurance", 
+        "targetValue": "CIF"
+      }, 
+      {
+        "currency": "%", 
+        "percentage": "AT3583766603", 
+        "description": "Ad / Valorem", 
+        "targetValue": "CIF"
+      }
+    ], 
+    "hs": "382490", 
+    "code": "3824909959", 
+    "name": "     Other"
+  }, 
+  {
+    "tariff_all": [
+      {
+        "currency": "%", 
+        "percentage": 16.0, 
+        "description": "General Sales Tax", 
+        "targetValue": "CIF"
+      }, 
+      {
+        "currency": "%", 
+        "percentage": " 2", 
+        "description": "Municipal Promotion Tax", 
+        "targetValue": "CIF"
+      }, 
+      {
+        "currency": "%", 
+        "percentage": " 1.25", 
+        "description": "Insurance", 
+        "targetValue": "CIF"
+      }, 
+      {
+        "currency": "%", 
+        "percentage": "AT2210486221", 
+        "description": "Ad / Valorem", 
+        "targetValue": "CIF"
+      }
+    ], 
+    "hs": "382490", 
+    "code": "3824909951", 
+    "name": "     Mixtures consisting predominantly of N,Ndimethyl2aminoethanoles or of N,Ndiethyl2aminoethanol or protonated salts thereof"
+  }, 
+  {
+    "tariff_all": [
+      {
+        "currency": "%", 
+        "percentage": 16.0, 
+        "description": "General Sales Tax", 
+        "targetValue": "CIF"
+      }, 
+      {
+        "currency": "%", 
+        "percentage": " 2", 
+        "description": "Municipal Promotion Tax", 
+        "targetValue": "CIF"
+      }, 
+      {
+        "currency": "%", 
+        "percentage": " 1.25", 
+        "description": "Insurance", 
+        "targetValue": "CIF"
+      }, 
+      {
+        "currency": "%", 
+        "percentage": "AT2210486221", 
+        "description": "Ad / Valorem", 
+        "targetValue": "CIF"
+      }
+    ], 
+    "hs": "382490", 
+    "code": "3824909942", 
+    "name": "     Mixtures consisting predominantly of N,Ndialkyl (methyl, ethyl, npropyl or isopropyl) aminoethane2thioles or protonated salts thereof"
+  }, 
+  {
+    "tariff_all": [
+      {
+        "currency": "%", 
+        "percentage": 16.0, 
+        "description": "General Sales Tax", 
+        "targetValue": "CIF"
+      }, 
+      {
+        "currency": "%", 
+        "percentage": " 2", 
+        "description": "Municipal Promotion Tax", 
+        "targetValue": "CIF"
+      }, 
+      {
+        "currency": "%", 
+        "percentage": " 1.25", 
+        "description": "Insurance", 
+        "targetValue": "CIF"
+      }, 
+      {
+        "currency": "%", 
+        "percentage": "AT2210486221", 
+        "description": "Ad / Valorem", 
+        "targetValue": "CIF"
+      }
+    ], 
+    "hs": "382490", 
+    "code": "3824909941", 
+    "name": "     Mixtures consisting predominantly of amines of N,Ndialkyl (methyl, ethyl, npropyl or isopropyl) 2chloroethyl or protonated salts thereof"
+  }, 
+  {
+    "tariff_all": [
+      {
+        "currency": "%", 
+        "percentage": 16.0, 
+        "description": "General Sales Tax", 
+        "targetValue": "CIF"
+      }, 
+      {
+        "currency": "%", 
+        "percentage": " 2", 
+        "description": "Municipal Promotion Tax", 
+        "targetValue": "CIF"
+      }, 
+      {
+        "currency": "%", 
+        "percentage": " 1.25", 
+        "description": "Insurance", 
+        "targetValue": "CIF"
+      }, 
+      {
+        "currency": "%", 
+        "percentage": "AT2210486221", 
+        "description": "Ad / Valorem", 
+        "targetValue": "CIF"
+      }
+    ], 
+    "hs": "382490", 
+    "code": "3824909930", 
+    "name": "    Mixtures consisting predominantly of hydrogenalkyl (methyl, ethyl, npropyl or isopropyl) phosphonites of [O2(dialkyl (methyl, ethyl, npropyl or isopropyl) amino) ethyl] and its esters of Oalkyl ("
+  }, 
+  {
+    "tariff_all": [
+      {
+        "currency": "%", 
+        "percentage": 16.0, 
+        "description": "General Sales Tax", 
+        "targetValue": "CIF"
+      }, 
+      {
+        "currency": "%", 
+        "percentage": " 2", 
+        "description": "Municipal Promotion Tax", 
+        "targetValue": "CIF"
+      }, 
+      {
+        "currency": "%", 
+        "percentage": " 1.25", 
+        "description": "Insurance", 
+        "targetValue": "CIF"
+      }, 
+      {
+        "currency": "%", 
+        "percentage": "AT2210486221", 
+        "description": "Ad / Valorem", 
+        "targetValue": "CIF"
+      }
+    ], 
+    "hs": "382490", 
+    "code": "3824909920", 
+    "name": "    Mixtures consisting predominantly of hydrogenalkyl (methyl, ethyl, npropyl or isopropyl) phosphonothioates of [S2(dialkyl (methyl, ethyl, npropyl or isopropyl) amino) ethyl] and its esters of Oalkyl ("
+  }, 
+  {
+    "tariff_all": [
+      {
+        "currency": "%", 
+        "percentage": 16.0, 
+        "description": "General Sales Tax", 
+        "targetValue": "CIF"
+      }, 
+      {
+        "currency": "%", 
+        "percentage": " 2", 
+        "description": "Municipal Promotion Tax", 
+        "targetValue": "CIF"
+      }, 
+      {
+        "currency": "%", 
+        "percentage": " 1.25", 
+        "description": "Insurance", 
+        "targetValue": "CIF"
+      }, 
+      {
+        "currency": "%", 
+        "percentage": "AT2210486221", 
+        "description": "Ad / Valorem", 
+        "targetValue": "CIF"
+      }
+    ], 
+    "hs": "382490", 
+    "code": "3824909915", 
+    "name": "     Mixtures consisting predominantly of N,Ndialkyl (methyl, ethyl, npropiyl or isopropyl) phosphoramidates of dialkyl (methyl, ethyl, npropyl or isopropyl)"
+  }, 
+  {
+    "tariff_all": [
+      {
+        "currency": "%", 
+        "percentage": 16.0, 
+        "description": "General Sales Tax", 
+        "targetValue": "CIF"
+      }, 
+      {
+        "currency": "%", 
+        "percentage": " 2", 
+        "description": "Municipal Promotion Tax", 
+        "targetValue": "CIF"
+      }, 
+      {
+        "currency": "%", 
+        "percentage": " 1.25", 
+        "description": "Insurance", 
+        "targetValue": "CIF"
+      }, 
+      {
+        "currency": "%", 
+        "percentage": "AT2210486221", 
+        "description": "Ad / Valorem", 
+        "targetValue": "CIF"
+      }
+    ], 
+    "hs": "382490", 
+    "code": "3824909914", 
+    "name": "     Mixtures consisting predominantly of phosphoroamidic N,Ndialkyl (methyl, ethyl, npropyl or isopropyl) dihalides"
+  }, 
+  {
+    "tariff_all": [
+      {
+        "currency": "%", 
+        "percentage": 16.0, 
+        "description": "General Sales Tax", 
+        "targetValue": "CIF"
+      }, 
+      {
+        "currency": "%", 
+        "percentage": " 2", 
+        "description": "Municipal Promotion Tax", 
+        "targetValue": "CIF"
+      }, 
+      {
+        "currency": "%", 
+        "percentage": " 1.25", 
+        "description": "Insurance", 
+        "targetValue": "CIF"
+      }, 
+      {
+        "currency": "%", 
+        "percentage": "AT2210486221", 
+        "description": "Ad / Valorem", 
+        "targetValue": "CIF"
+      }
+    ], 
+    "hs": "382490", 
+    "code": "3824909913", 
+    "name": "     Mixtures consisting predominantly of difluorides of alkyl (methyl, ethyl, npropyl or isopropyl) phosphonyl"
+  }, 
+  {
+    "tariff_all": [
+      {
+        "currency": "%", 
+        "percentage": 16.0, 
+        "description": "General Sales Tax", 
+        "targetValue": "CIF"
+      }, 
+      {
+        "currency": "%", 
+        "percentage": " 2", 
+        "description": "Municipal Promotion Tax", 
+        "targetValue": "CIF"
+      }, 
+      {
+        "currency": "%", 
+        "percentage": " 1.25", 
+        "description": "Insurance", 
+        "targetValue": "CIF"
+      }, 
+      {
+        "currency": "%", 
+        "percentage": "AT2210486221", 
+        "description": "Ad / Valorem", 
+        "targetValue": "CIF"
+      }
+    ], 
+    "hs": "382490", 
+    "code": "3824909912", 
+    "name": "     Mixtures consisting predominantly of N,Ndialkyl (methyl, ethyl, npropyl or isopropyl) phosphoroamidocyanidates of Oalkyl ("
+  }, 
+  {
+    "tariff_all": [
+      {
+        "currency": "%", 
+        "percentage": 16.0, 
+        "description": "General Sales Tax", 
+        "targetValue": "CIF"
+      }, 
+      {
+        "currency": "%", 
+        "percentage": " 2", 
+        "description": "Municipal Promotion Tax", 
+        "targetValue": "CIF"
+      }, 
+      {
+        "currency": "%", 
+        "percentage": " 1.25", 
+        "description": "Insurance", 
+        "targetValue": "CIF"
+      }, 
+      {
+        "currency": "%", 
+        "percentage": "AT3583766603", 
+        "description": "Ad / Valorem", 
+        "targetValue": "CIF"
+      }
+    ], 
+    "hs": "382490", 
+    "code": "3824909911", 
+    "name": "     Mixtures consisting predominantly of alkyl (methyl, ethyl, npropyl or isopropyl) phosphonoflouridates of Oalkyl ("
+  }, 
+  {
+    "tariff_all": [
+      {
+        "currency": "%", 
+        "percentage": 16.0, 
+        "description": "General Sales Tax", 
+        "targetValue": "CIF"
+      }, 
+      {
+        "currency": "%", 
+        "percentage": " 2", 
+        "description": "Municipal Promotion Tax", 
+        "targetValue": "CIF"
+      }, 
+      {
+        "currency": "%", 
+        "percentage": " 1.25", 
+        "description": "Insurance", 
+        "targetValue": "CIF"
+      }, 
+      {
+        "currency": "%", 
+        "percentage": "AT3583766603", 
+        "description": "Ad / Valorem", 
+        "targetValue": "CIF"
+      }
+    ], 
+    "hs": "382490", 
+    "code": "3824909800", 
+    "name": "   Preparations of lead oxide and metallic lead for the manufacture of accumulator plates"
+  }, 
+  {
+    "tariff_all": [
+      {
+        "currency": "%", 
+        "percentage": 16.0, 
+        "description": "General Sales Tax", 
+        "targetValue": "CIF"
+      }, 
+      {
+        "currency": "%", 
+        "percentage": " 2", 
+        "description": "Municipal Promotion Tax", 
+        "targetValue": "CIF"
+      }, 
+      {
+        "currency": "%", 
+        "percentage": " 1.25", 
+        "description": "Insurance", 
+        "targetValue": "CIF"
+      }, 
+      {
+        "currency": "%", 
+        "percentage": "AT3583766603", 
+        "description": "Ad / Valorem", 
+        "targetValue": "CIF"
+      }
+    ], 
+    "hs": "382490", 
+    "code": "3824909700", 
+    "name": "   Propineb"
+  }, 
+  {
+    "tariff_all": [
+      {
+        "currency": "%", 
+        "percentage": 16.0, 
+        "description": "General Sales Tax", 
+        "targetValue": "CIF"
+      }, 
+      {
+        "currency": "%", 
+        "percentage": " 2", 
+        "description": "Municipal Promotion Tax", 
+        "targetValue": "CIF"
+      }, 
+      {
+        "currency": "%", 
+        "percentage": " 1.25", 
+        "description": "Insurance", 
+        "targetValue": "CIF"
+      }, 
+      {
+        "currency": "%", 
+        "percentage": "AT2210486221", 
+        "description": "Ad / Valorem", 
+        "targetValue": "CIF"
+      }
+    ], 
+    "hs": "382490", 
+    "code": "3824909600", 
+    "name": "   Correcting fluids put up in packings for retail sale"
+  }, 
+  {
+    "tariff_all": [
+      {
+        "currency": "%", 
+        "percentage": 16.0, 
+        "description": "General Sales Tax", 
+        "targetValue": "CIF"
+      }, 
+      {
+        "currency": "%", 
+        "percentage": " 2", 
+        "description": "Municipal Promotion Tax", 
+        "targetValue": "CIF"
+      }, 
+      {
+        "currency": "%", 
+        "percentage": " 1.25", 
+        "description": "Insurance", 
+        "targetValue": "CIF"
+      }, 
+      {
+        "currency": "%", 
+        "percentage": "AT3583766603", 
+        "description": "Ad / Valorem", 
+        "targetValue": "CIF"
+      }
+    ], 
+    "hs": "382490", 
+    "code": "3824909500", 
+    "name": "   Phosphoric acid, not isolated, whether or not concentrated, of a P"
+  }, 
+  {
+    "tariff_all": [
+      {
+        "currency": "%", 
+        "percentage": 16.0, 
+        "description": "General Sales Tax", 
+        "targetValue": "CIF"
+      }, 
+      {
+        "currency": "%", 
+        "percentage": " 2", 
+        "description": "Municipal Promotion Tax", 
+        "targetValue": "CIF"
+      }, 
+      {
+        "currency": "%", 
+        "percentage": " 1.25", 
+        "description": "Insurance", 
+        "targetValue": "CIF"
+      }, 
+      {
+        "currency": "%", 
+        "percentage": "AT3583766603", 
+        "description": "Ad / Valorem", 
+        "targetValue": "CIF"
+      }
+    ], 
+    "hs": "382490", 
+    "code": "3824909400", 
+    "name": "   Compound hardeners"
+  }, 
+  {
+    "tariff_all": [
+      {
+        "currency": "%", 
+        "percentage": 16.0, 
+        "description": "General Sales Tax", 
+        "targetValue": "CIF"
+      }, 
+      {
+        "currency": "%", 
+        "percentage": " 2", 
+        "description": "Municipal Promotion Tax", 
+        "targetValue": "CIF"
+      }, 
+      {
+        "currency": "%", 
+        "percentage": " 1.25", 
+        "description": "Insurance", 
+        "targetValue": "CIF"
+      }, 
+      {
+        "currency": "%", 
+        "percentage": "AT3583766603", 
+        "description": "Ad / Valorem", 
+        "targetValue": "CIF"
+      }
+    ], 
+    "hs": "382490", 
+    "code": "3824909300", 
+    "name": "   Ion exchangers"
+  }, 
+  {
+    "tariff_all": [
+      {
+        "currency": "%", 
+        "percentage": 16.0, 
+        "description": "General Sales Tax", 
+        "targetValue": "CIF"
+      }, 
+      {
+        "currency": "%", 
+        "percentage": " 2", 
+        "description": "Municipal Promotion Tax", 
+        "targetValue": "CIF"
+      }, 
+      {
+        "currency": "%", 
+        "percentage": " 1.25", 
+        "description": "Insurance", 
+        "targetValue": "CIF"
+      }, 
+      {
+        "currency": "%", 
+        "percentage": "AT3583766603", 
+        "description": "Ad / Valorem", 
+        "targetValue": "CIF"
+      }
+    ], 
+    "hs": "382490", 
+    "code": "3824909200", 
+    "name": "   Ferrites with agglomerants, in powder granules"
+  }, 
+  {
+    "tariff_all": [
+      {
+        "currency": "%", 
+        "percentage": 16.0, 
+        "description": "General Sales Tax", 
+        "targetValue": "CIF"
+      }, 
+      {
+        "currency": "%", 
+        "percentage": " 2", 
+        "description": "Municipal Promotion Tax", 
+        "targetValue": "CIF"
+      }, 
+      {
+        "currency": "%", 
+        "percentage": " 1.25", 
+        "description": "Insurance", 
+        "targetValue": "CIF"
+      }, 
+      {
+        "currency": "%", 
+        "percentage": "AT3583766603", 
+        "description": "Ad / Valorem", 
+        "targetValue": "CIF"
+      }
+    ], 
+    "hs": "382490", 
+    "code": "3824909100", 
+    "name": "   Maneb, Zineb, Mancozeb"
+  }, 
+  {
+    "tariff_all": [
+      {
+        "currency": "%", 
+        "percentage": 16.0, 
+        "description": "General Sales Tax", 
+        "targetValue": "CIF"
+      }, 
+      {
+        "currency": "%", 
+        "percentage": " 2", 
+        "description": "Municipal Promotion Tax", 
+        "targetValue": "CIF"
+      }, 
+      {
+        "currency": "%", 
+        "percentage": " 1.25", 
+        "description": "Insurance", 
+        "targetValue": "CIF"
+      }, 
+      {
+        "currency": "%", 
+        "percentage": "AT3583766603", 
+        "description": "Ad / Valorem", 
+        "targetValue": "CIF"
+      }
+    ], 
+    "hs": "382490", 
+    "code": "3824908000", 
+    "name": "  Anabolics; mixtures of sodium sulphate and sodium chromate"
+  }, 
+  {
+    "tariff_all": [
+      {
+        "currency": "%", 
+        "percentage": 16.0, 
+        "description": "General Sales Tax", 
+        "targetValue": "CIF"
+      }, 
+      {
+        "currency": "%", 
+        "percentage": " 2", 
+        "description": "Municipal Promotion Tax", 
+        "targetValue": "CIF"
+      }, 
+      {
+        "currency": "%", 
+        "percentage": " 1.25", 
+        "description": "Insurance", 
+        "targetValue": "CIF"
+      }, 
+      {
+        "currency": "%", 
+        "percentage": "AT3583766603", 
+        "description": "Ad / Valorem", 
+        "targetValue": "CIF"
+      }
+    ], 
+    "hs": "382490", 
+    "code": "3824907000", 
+    "name": "  Preparations for concentrating minerals, other than those containing xanthates"
+  }, 
+  {
+    "tariff_all": [
+      {
+        "currency": "%", 
+        "percentage": 16.0, 
+        "description": "General Sales Tax", 
+        "targetValue": "CIF"
+      }, 
+      {
+        "currency": "%", 
+        "percentage": " 2", 
+        "description": "Municipal Promotion Tax", 
+        "targetValue": "CIF"
+      }, 
+      {
+        "currency": "%", 
+        "percentage": " 1.25", 
+        "description": "Insurance", 
+        "targetValue": "CIF"
+      }, 
+      {
+        "currency": "%", 
+        "percentage": "AT3583766603", 
+        "description": "Ad / Valorem", 
+        "targetValue": "CIF"
+      }
+    ], 
+    "hs": "382490", 
+    "code": "3824906000", 
+    "name": "  Preparations for wellperforating fluids"
+  }, 
+  {
+    "tariff_all": [
+      {
+        "currency": "%", 
+        "percentage": 16.0, 
+        "description": "General Sales Tax", 
+        "targetValue": "CIF"
+      }, 
+      {
+        "currency": "%", 
+        "percentage": " 2", 
+        "description": "Municipal Promotion Tax", 
+        "targetValue": "CIF"
+      }, 
+      {
+        "currency": "%", 
+        "percentage": " 1.25", 
+        "description": "Insurance", 
+        "targetValue": "CIF"
+      }, 
+      {
+        "currency": "%", 
+        "percentage": "AT2210486221", 
+        "description": "Ad / Valorem", 
+        "targetValue": "CIF"
+      }
+    ], 
+    "hs": "382490", 
+    "code": "3824905000", 
+    "name": "  Napthenic acids, their insoluble salts and esters"
+  }, 
+  {
+    "tariff_all": [
+      {
+        "currency": "%", 
+        "percentage": 16.0, 
+        "description": "General Sales Tax", 
+        "targetValue": "CIF"
+      }, 
+      {
+        "currency": "%", 
+        "percentage": " 2", 
+        "description": "Municipal Promotion Tax", 
+        "targetValue": "CIF"
+      }, 
+      {
+        "currency": "%", 
+        "percentage": " 1.25", 
+        "description": "Insurance", 
+        "targetValue": "CIF"
+      }, 
+      {
+        "currency": "%", 
+        "percentage": "AT3583766603", 
+        "description": "Ad / Valorem", 
+        "targetValue": "CIF"
+      }
+    ], 
+    "hs": "382490", 
+    "code": "3824904000", 
+    "name": "  Pyrometric cones; sodalime; hydrated silica gel; copying pastes with a basis of gelatin"
+  }, 
+  {
+    "tariff_all": [
+      {
+        "currency": "%", 
+        "percentage": 16.0, 
+        "description": "General Sales Tax", 
+        "targetValue": "CIF"
+      }, 
+      {
+        "currency": "%", 
+        "percentage": " 2", 
+        "description": "Municipal Promotion Tax", 
+        "targetValue": "CIF"
+      }, 
+      {
+        "currency": "%", 
+        "percentage": " 1.25", 
+        "description": "Insurance", 
+        "targetValue": "CIF"
+      }, 
+      {
+        "currency": "%", 
+        "percentage": "AT3583766603", 
+        "description": "Ad / Valorem", 
+        "targetValue": "CIF"
+      }
+    ], 
+    "hs": "382490", 
+    "code": "3824903200", 
+    "name": "   Preparations for clarifying wines and other liquids"
+  }, 
+  {
+    "tariff_all": [
+      {
+        "currency": "%", 
+        "percentage": 16.0, 
+        "description": "General Sales Tax", 
+        "targetValue": "CIF"
+      }, 
+      {
+        "currency": "%", 
+        "percentage": " 2", 
+        "description": "Municipal Promotion Tax", 
+        "targetValue": "CIF"
+      }, 
+      {
+        "currency": "%", 
+        "percentage": " 1.25", 
+        "description": "Insurance", 
+        "targetValue": "CIF"
+      }, 
+      {
+        "currency": "%", 
+        "percentage": "AT3583766603", 
+        "description": "Ad / Valorem", 
+        "targetValue": "CIF"
+      }
+    ], 
+    "hs": "382490", 
+    "code": "3824903100", 
+    "name": "   Antiscaling preparations"
+  }, 
+  {
+    "tariff_all": [
+      {
+        "currency": "%", 
+        "percentage": 16.0, 
+        "description": "General Sales Tax", 
+        "targetValue": "CIF"
+      }, 
+      {
+        "currency": "%", 
+        "percentage": " 2", 
+        "description": "Municipal Promotion Tax", 
+        "targetValue": "CIF"
+      }, 
+      {
+        "currency": "%", 
+        "percentage": " 1.25", 
+        "description": "Insurance", 
+        "targetValue": "CIF"
+      }, 
+      {
+        "currency": "%", 
+        "percentage": "AT3583766603", 
+        "description": "Ad / Valorem", 
+        "targetValue": "CIF"
+      }
+    ], 
+    "hs": "382490", 
+    "code": "3824902200", 
+    "name": "   Mixtures of poly(ethylene glycol) of low molecular weight"
+  }, 
+  {
+    "tariff_all": [
+      {
+        "currency": "%", 
+        "percentage": 16.0, 
+        "description": "General Sales Tax", 
+        "targetValue": "CIF"
+      }, 
+      {
+        "currency": "%", 
+        "percentage": " 2", 
+        "description": "Municipal Promotion Tax", 
+        "targetValue": "CIF"
+      }, 
+      {
+        "currency": "%", 
+        "percentage": " 1.25", 
+        "description": "Insurance", 
+        "targetValue": "CIF"
+      }, 
+      {
+        "currency": "%", 
+        "percentage": "AT3583766603", 
+        "description": "Ad / Valorem", 
+        "targetValue": "CIF"
+      }
+    ], 
+    "hs": "382490", 
+    "code": "3824902100", 
+    "name": "   Chloroparaffins"
+  }, 
+  {
+    "tariff_all": [
+      {
+        "currency": "%", 
+        "percentage": 16.0, 
+        "description": "General Sales Tax", 
+        "targetValue": "CIF"
+      }, 
+      {
+        "currency": "%", 
+        "percentage": " 2", 
+        "description": "Municipal Promotion Tax", 
+        "targetValue": "CIF"
+      }, 
+      {
+        "currency": "%", 
+        "percentage": " 1.25", 
+        "description": "Insurance", 
+        "targetValue": "CIF"
+      }, 
+      {
+        "currency": "%", 
+        "percentage": "AT3583766603", 
+        "description": "Ad / Valorem", 
+        "targetValue": "CIF"
+      }
+    ], 
+    "hs": "382490", 
+    "code": "3824901000", 
+    "name": "  Petroleum sulphonates"
+  }
+]

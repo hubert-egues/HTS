@@ -1,0 +1,76 @@
+[
+    {
+        "code": "2930906000",
+        "name": "-Tiodiglicol (DCI) [sulfuro de bis(2-hidroxietilo)]",
+        "hs": "6",
+        "other_tariff": [
+            {
+                "percentage": "0%",
+                "description": "Impuesto Selectivo al Consumo"
+            },
+            {
+                "percentage": "16%",
+                "description": "Impuesto General a las Ventas "
+            },
+            {
+                "percentage": "2%",
+                "description": "Impuesto de Promoci\u00f3n Municipal "
+            },
+            {
+                "percentage": "2%",
+                "description": "Seguro"
+            },
+            {
+                "percentage": "0%",
+                "description": "Sobretasa "
+            }
+        ],
+        "tariff": [
+            {
+                "currency": "%",
+                "value": "100%",
+                "country": "CHINA"
+            }
+        ],
+        "quantity": [
+            "KG"
+        ]
+    },
+    {
+        "code": "2930903000",
+        "name": "MALATION (ISO)",
+        "hs": "3",
+        "other_tariff": [
+            {
+                "percentage": "0%",
+                "description": "Impuesto Selectivo al Consumo"
+            },
+            {
+                "percentage": "16%",
+                "description": "Impuesto General a las Ventas "
+            },
+            {
+                "percentage": "2%",
+                "description": "Impuesto de Promoci\u00f3n Municipal "
+            },
+            {
+                "percentage": "2%",
+                "description": "Seguro"
+            },
+            {
+                "percentage": "0%",
+                "description": "Sobretasa "
+            }
+        ],
+        "tariff": [
+            {
+                "currency": "%",
+                "value": "100%",
+                "country": "CHINA"
+            }
+        ],
+        "quantity": [
+            "KG"
+        ]
+    }
+]

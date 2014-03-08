@@ -1,0 +1,43 @@
+<?php
+namespace HTS\Processor;
+
+use Goutte\Client;
+
+class HtsProcessor{
+	private $crawler;
+	private $client;
+	private $hts;
+
+	public function __construct($uri=null){
+		$this->client = new Client();
+		$this->crawler = $this->client->request('GET', "{$uri}");
+	}
+
+	public function getHtsName(){
+		$link = $this->crawler->selectLink('Plugins')->link();
+		$this->crawler = $this->client->click($link);
+		$tableHTML = \DOMDocument::loadHTMLFile($link->getUri());
+		//$this->hts= $tableHTML->saveHTML();
+		$this->processCaptura($tableHTML);
+		return $this->hts;
+		//return $tableXML;
+	}
+
+private function processCaptura(\DOMDocument $document){
+	$elements = $document->getElementsByTagName('h2');
+	
+	if (!is_null($elements)) {
+	  foreach ($elements as $element) {
+	    echo "<br/>". $element->nodeName. ": ";
+
+	    $nodes = $element->childNodes;
+	    foreach ($nodes as $node) {
+	      echo $node->nodeValue. "\n";
+	    }
+	  }
+	}
+	return $elements;
+}
+
+}
+
