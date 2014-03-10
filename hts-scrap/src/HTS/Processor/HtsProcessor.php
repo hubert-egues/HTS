@@ -712,7 +712,7 @@ class HtsProcessor
     private function getCountries($data) {
     	$countriesValue = rtrim(trim($data), ')');
 		$countriesValue = explode(' ', $countriesValue);
-		$countries = [];
+		$countries = array();
 		foreach ($countriesValue as $country) {
 			$country = trim($country);
 			if ($country != '') {
