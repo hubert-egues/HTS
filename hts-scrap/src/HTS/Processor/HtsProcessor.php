@@ -407,7 +407,7 @@ class HtsProcessor
             return array('kg', 'on magnesium content');
         }
         if (stripos($targetValue, $value='m2 of recording surface') > -1) {
-            return array('kg', 'of recording surface');
+            return array('m2', 'of recording surface');
         } 
         if (stripos($targetValue, $value='clean') > -1) {/* clean kg "T51000000" */
             return array('kg');
@@ -417,6 +417,9 @@ class HtsProcessor
         }
         if (stripos($targetValue, $value='pr.') > -1) {
             return array('pair');
+        }
+        if (stripos($targetValue, $value='kg ,') > -1) {
+            return array('kg');
         }
         /* percent target values */
         if (preg_match('#on( )?(the)?( )?case( )?and( )?strap,( )?band( )?or( )?bracelet#i', $targetValue)) {
@@ -436,9 +439,6 @@ class HtsProcessor
         }
         if (stripos($targetValue, $value='on the value of the lead content') > -1) {
         	return array('FOB', 'on the value of the lead content');
-        }
-        if (stripos($targetValue, $value='on thevalue of the rifle') > -1) {
-        	return array('FOB', 'on thevalue of the rifle');
         }
         if (preg_match('#on( )?the( )?value( )?of( )?the( )?rifle#i', $targetValue)) {
         	return array('FOB', 'on the value of the rifle');
