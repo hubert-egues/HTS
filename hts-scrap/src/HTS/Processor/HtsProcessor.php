@@ -224,7 +224,6 @@ class HtsProcessor
                     $hts["tariff"] = (empty($tariffs)) ? $hts["tariff"] : $tariffs;
                     break;
             }
-            
         }
         $fatherCode = substr($hts["code"], 0, -2);
 
@@ -262,8 +261,11 @@ class HtsProcessor
 		|| $unitOfQuantity == 'dz'
 		) {
 			$unitOfQuantity = 'doz';
-		} else if ($unitOfQuantity == 'No.') {
-			$unitOfQuantity = 'No';
+		} else if ($unitOfQuantity == 'No.'
+		|| $unitOfQuantity == 'No'
+		|| $unitOfQuantity == 'no'
+		) {
+			$unitOfQuantity = 'item';
 		} else if ($unitOfQuantity == 'Kg') {
 			$unitOfQuantity = 'kg';
 		} else if ($unitOfQuantity == 'liters liters') {
@@ -314,7 +316,7 @@ class HtsProcessor
         }
     }
 
-    private function createTariffValue($value, $currency, $targetValue, $conditions=array(), $feature=Null)
+    private function createTariffValue($value, $currency, $targetValue, $conditions=array(), $feature='')
     {	
         return array(
             'value'       => $value,
@@ -328,7 +330,7 @@ class HtsProcessor
 	private function parseTargetValue($targetValue) {
 		$result = $this->_parseTargetValue($targetValue);
 		$unit = $result[0];
-		$feature = (count($result) > 1) ? $result[1] : Null;
+		$feature = (count($result) > 1) ? $result[1] : '';
 
 		/* log */
 		if (!in_array($feature, $this->knowFeatures[$this->currentChapter])) {
@@ -353,13 +355,13 @@ class HtsProcessor
             return array('linear m');
         }
         if (strpos($targetValue, $value='No') > -1) {
-            return array('No');
+            return array('item');
         }
         if (stripos($targetValue, $value='head') > -1) {
-            return array('No');
+            return array('item');
         }
         if (stripos($targetValue, $value='each') > -1) {
-            return array('No');
+            return array('item');
         }
         if (stripos($targetValue, $value='1000') > -1) {
             return array('c/1000');
@@ -448,7 +450,7 @@ class HtsProcessor
         }
 
         if (stripos($targetValue, $value='foreach other piece or part') > -1) {
-        	return array('No', 'foreach other piece or part');
+        	return array('item', 'foreach other piece or part');
         }
         if (stripos($targetValue, $value='line/ gross') > -1) {
         	return array('gross');
@@ -741,7 +743,7 @@ class HtsProcessor
     	-	each " por cuantas veces existe el valor de la condicion en el valor del feature del model
 
 			if type == 'diff':
-				factor = <$value_to_compare> - feature_value_model;
+				factor = feature_value_model - <$value_to_compare>;
 			else if type == 'each':
 				factor = feature_value_model / <$value_to_compare>;
 			else if type == 'greater':
@@ -750,21 +752,21 @@ class HtsProcessor
 				factor = 0;
 	
 			if factor <sign_compared> 0:
-				HTS_VALUE = HTS_VALUE <operation> <value_apply> * factor
+				HTS_VALUE = HTS_VALUE <operation> <value_apply> * abs(factor)
 				if delta > <hts_min>:
 					HTS_VALUE = <hts_min>
 			Ejm:
 	
-			factor = 100 - feature_value_model
-			if  factor > 0:
-				HTS_VALUE = HTS_VALUE - (0.020668 * factor)
+			factor = feature_value_model - 100 
+			if  factor < 0:
+				HTS_VALUE = HTS_VALUE - (0.020668 * abs(factor))
 				if HTS_VALUE > 0.943854:
 					HTS_VALUE = 0.943854:
 		
     */
     private function createCondition($unit_for_condition, $math_operation, $value_apply,
-    								 $sign_compared="=", $value_to_compare=Null, $type=Null,
-    								 $hts_min=Null, $hts_max=Null) {
+    								 $sign_compared="=", $value_to_compare='', $type='',
+    								 $hts_min='', $hts_max='') {
 	
     	$condition = array( /* target is value of hts */
     			'unit_for_condition' => $unit_for_condition,
@@ -783,7 +785,7 @@ class HtsProcessor
     private function getConditionByTargetValue($targetValue, $valueApply) {
     	$condition = array();
     	if ($targetValue == 'c/1000') {
-        	$condition = array($this->createCondition('No', '+', $valueApply, ">", 1000, 'each'));
+        	$condition = array($this->createCondition('item', '+', $valueApply, ">", 1000, 'each'));
         	$targetValue = 'FOB';
         	$valueApply = 0;
         } else if ($targetValue == 't') {
