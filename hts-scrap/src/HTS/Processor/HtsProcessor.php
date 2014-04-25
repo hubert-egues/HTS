@@ -24,6 +24,8 @@ class HtsProcessor
     private $currentChapter;
     private $conditions;
     private $unitOfQuantity;
+    private $tableDontExists;
+    private $xmlEightCodeWrong; /* codigo que no cumple convencion para el tag en donde esta ubicado */
     
 
     public function __construct($uri=null)
@@ -45,11 +47,24 @@ class HtsProcessor
 		$this->valuesUsed = array();
 		$this->unitOfQuantity = array();
 		$this->knowFeatures = array();
+		
+		$this->tableDontExists = array(77, 98);
+		$this->xmlEightCodeWrong = array('293790');
+		/*
+			<eight_digit_with_00_row lineno="1627">
+		      <htsno>2937.90</htsno>
+		      <hts10no>00</hts10no>
+		      <description lvlind="1">Other:</description>
+		      <mfn_tariff/>
+		      <special/>
+		      <other_tariff/>
+		    </eight_digit_with_00_row>
+    	*/
     }
 
     public function catchLinksChapters()
     {	
-    	$not_exists = array(77, 98);
+    	$not_exists = $this->tableDontExists;
     	/* 1 -> 98 */
     	$start = 1;
     	$finish = 98;
@@ -191,7 +206,11 @@ class HtsProcessor
             switch ($child->nodeName) {
                 case 'htsno':
                     $hts["code"] = str_replace('.','',$child->nodeValue);
-                    $hts["hs"]   = substr($hts["code"], 0, -2);
+                    if (in_array($hts["code"], $this->xmlEightCodeWrong)) {
+                    	$hts["hs"] = $hts["code"];
+                    } else {
+                    	$hts["hs"] = substr($hts["code"], 0, -2);
+                    }
                     break;
                 case 'hts10no':
                     $code = (strlen($child->nodeValue) == 1) ? $child->nodeValue.'0' : $child->nodeValue;
