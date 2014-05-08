@@ -19,7 +19,7 @@ class HtsProcessor
 		    $name = str_replace("[", "(", $name);
 		    $name = str_replace("<br >", "", $name);
 		    $name = str_replace("},", "},<br >", $name);
-		    	
+
 		    $hts[$num]['name'] = $name;
 	  	}
 	  	fclose($text);

@@ -14,4 +14,4 @@ Ejecutar comando:
 	ejecutar:
 		python NameHts.py
 	esto generar un archivo final en:
-		"Hts_final/Hts_Usa/output/hts_usa.json"
+		"Hts_final/Hts_Usa/output/output.json"

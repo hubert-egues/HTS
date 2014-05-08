@@ -10,7 +10,7 @@ def ReplaceName():
     name_file = json.loads(file_name)
     hts = []
     Text = [6, 4]
-    for output in output_file:
+    for output in output_file: 
         #Name
         if len(output['code']) == 10:
             for text in Text:
@@ -22,7 +22,6 @@ def ReplaceName():
         print "Code " + output['code']
     write_json('output/hts_peru.json', hts)
     print "Terminate"
-
 
 def write_json(fileName, structure):
     f = open(fileName, mode='w')

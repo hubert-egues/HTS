@@ -33,7 +33,6 @@ def read_hts(fileName):
     output = json.loads(file)
     for i in output:
         if output[i]['name'] == 'Not available' or len(i) == 10:
-#             print i+' ==> '+output[i]['name']
             name = find_name('input/name.json', i)
             if len(i) == 10 and output[i]['name'] != 'Not available':
                 name = name + " " + output[i]['name']

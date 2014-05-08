@@ -26,6 +26,7 @@ class HtsProcessor
     private $unitOfQuantity;
     private $tableDontExists;
     private $xmlEightCodeWrong; /* codigo que no cumple convencion para el tag en donde esta ubicado */
+    /* existen HTS sin Tarifas pues en la misma pagina esta de esa manera. */
     
 
     public function __construct($uri=null)
